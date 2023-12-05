@@ -62,7 +62,10 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      external: ['bootstrap'],
+      commonjsOptions: {
+        include: [/node_modules/],
+      },
     },
-  },
+};
+
 });
