@@ -2,7 +2,7 @@
 
 name = "Wisedge Post Purchase App"
 client_id = "b6b37c551b0463e41f7064f97923ecc9"
-application_url = "https://cancelled-consortium-dry-southern.trycloudflare.com"
+application_url = "https://shock-maple-annotated-aging.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "read_products,write_products, read_orders, read_customers, write_check
 
 [auth]
 redirect_urls = [
-  "https://cancelled-consortium-dry-southern.trycloudflare.com/auth/callback",
-  "https://cancelled-consortium-dry-southern.trycloudflare.com/auth/shopify/callback",
-  "https://cancelled-consortium-dry-southern.trycloudflare.com/api/auth/callback"
+  "https://shock-maple-annotated-aging.trycloudflare.com/auth/callback",
+  "https://shock-maple-annotated-aging.trycloudflare.com/auth/shopify/callback",
+  "https://shock-maple-annotated-aging.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
