@@ -60,4 +60,9 @@ export default defineConfig({
       "^/api(/|(\\?.*)?$)": proxyOptions,
     },
   },
+  build: {
+    rollupOptions: {
+      external: ['bootstrap/dist/css/bootstrap.min.css'],
+    },
+  },
 });
